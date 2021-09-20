@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>지금, 부평 지하상가</title>
+    <style>
+      #explaination{
+        font-size: 15px;
+        font-family:arial, verdana, serif, sans-serif, cursive;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <div style = "text-align:center">
+        <h1>지금, 부평 지하상가 관리툴</h1>
+
+        <p>
+          장소 이름 - 한국어<br>
+          <input type="text" name="place_name_kor" style=" width:200px;">
+        </p>
+
+        <p>
+          장소 이름 - 영어<br>
+          <input type="text" name="place_name_eng" style=" width:200px;">
+        </p>
+
+        <p>
+          GPS 좌표 <br>
+          <input type="text" name="GPS_coor" style=" width:200px;">
+        </p>
+
+        <p>
+          장소 설명 - 한국어<br>
+          <textarea id="explaination" name="place_explaination_kor" cols="30" rows="7">
+          </textarea>
+        </p>
+
+        <p>
+          장소 설명 - 영어<br>
+          <textarea id="explaination" name="place_explaination_eng" cols="30" rows="7">
+          </textarea>
+        </p>
+
+        <p>
+          사진 1<br>
+          <input type="file" name="place_photo_1">
+        </p>
+
+        <p>
+          사진 2<br>
+          <input type="file" name="place_photo_2">
+        </p>
+
+        <p>
+          사진 3<br>
+          <input type="file" name="place_photo_3">
+        </p>
+      </div>
+    </form>
+  </body>
+</html>
